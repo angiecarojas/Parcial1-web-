@@ -1,0 +1,557 @@
+:root{
+    --naranjaParra: #E89241;
+    --naranjaMenu: #E68930;
+    --naranjaBtn: #E48220;
+    --blanco: #FFFFFF ;
+    --naranjaBoton: #DE7D2C;
+  
+}
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('../fonts/glacialindifference-regular-webfont.woff') format('woff2'),
+         url('../fonts/glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'glacial_indifferenceitalic';
+    src: url('../fonts/glacialindifference-italic-webfont.woff') format('woff2'),
+         url('../fonts/glacialindifference-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'glacial_indifferencebold';
+    src: url('../fonts/glacialindifference-bold-webfont.woff') format('woff2'),
+         url('../fonts/glacialindifference-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'balooregular';
+    src: url('../fonts/baloo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/baloo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background: #E48123;
+}
+
+#container{
+    width: 802px;
+    border: 1px solid;
+    margin: 0 auto;
+    /*background: #FFFFFF;  */
+    position: relative;
+    width: 853px;
+    height: 480px;
+    margin: auto;
+    background: url('../img/backg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+       
+}
+
+
+
+#Div0{
+    width: 802px;
+    margin: 0 auto;
+    position: absolute;
+    width: 853px;
+    height: 480px;
+    margin: auto;
+   background: url('../img/Hojas-fru.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cuadrado {
+    widows: 800px;
+    max-width:853px;
+    height:16vh;
+    max-height:90px;
+    position: relative ;
+    background:white;    
+  }
+ 
+.footer [class*="cuadrado"]{
+    position: relative ;
+    top: 72px;
+}
+
+.principal-information [class*="titulo"]{
+    position: relative;
+    top:50px; 
+    left:1%;   
+}
+.titulo{
+    color: var(--blanco);
+    font-size:65pt;
+    font-family:'balooregular'!important;
+}
+
+.parrafo{
+    color: var(--naranjaParra);
+    font-size: 14px;
+    font-family: 'glacial_indifferenceregular' !important;
+}
+.btn-principal{
+    color: #fff;
+    font-size: 12.44px;
+    background: var(--naranjaBtn) ;
+    font-family: 'glacial_indifferenceregular' !important;
+    width: 120px; /*ancho*/
+    /*height: 15px 20px 15px 20px;*/
+    padding: 6px;
+    border-radius: 15%;
+    border: none;
+}
+
+.logo{
+    position: relative;
+    top:15%;
+    left:4%;
+    padding: 12px;
+}
+/*deja que se ubique la lista hacia el ladito*/
+#menu ul li{
+    display: inline;
+    font-size: 14pt;
+    color: var(--naranjaMenu);
+    text-decoration: none;
+}
+
+#menu ul li a{
+    font-size: 14pt;
+    color: var(--naranjaMenu);
+    text-decoration: none;
+}
+
+#menu .call-getstared {
+    font-size: 15pt;
+    background: var(--naranjaMenu);
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10%;
+    color: #fff;
+}
+.menu__link:hover{
+    background:  rgba(255, 166, 0, 0.246);
+}
+
+
+.Div0{
+  position: relative;
+  width: 1310px;
+  height: 900px;
+  margin: auto;
+  background-image: url("../img/backg.png");  
+  background-repeat: no-repeat;
+}
+
+.principal-images{
+    width: 600px;
+    float: right;
+    position: relative;
+    display: inline-flexbox;
+}
+
+.menu{
+      display: block;
+      color: white;
+} 
+
+.social-icon{   
+    display: flex;
+    /*justify-content: space-between;*/
+    position: absolute;
+    top:7%;
+    left:84%;
+}
+
+.social-icon [class*="icon"]{
+    color: var(--naranjaParra);
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+   /* background: white;
+    border-radius: 50%;*/
+    
+}
+
+.social-icon__link{
+    text-decoration: none;
+}
+
+.menu{
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    font-family: 'glacial_indifferenceregular' !important;
+    top:8%;
+    left:-7%;
+}
+.menu__link{
+   /* display: block;*/
+    padding: 15px;
+    text-decoration: none;
+}
+.footer [class*="parrafo"]{
+    position: absolute;
+    top:15%;
+    left:8%;    
+}
+.footer [class*="btn-principal"]{
+    position: absolute;
+    top:35%;
+    left:75%;    
+}
+/*----------------------------------------------------------*/
+/*-------------------------------ABOUT-------------------------------*/
+  #Div1{
+    width: 678px;
+    margin: 0 auto;
+    position: absolute;
+    width: 878px;
+    height: 440px;
+    margin: auto;
+    align-content: center;
+    background: url('../img/juguito-about.png') center;
+    background-repeat: no-repeat;
+    
+}
+
+#Div11{
+    width: 802px;
+    margin: 0 auto;
+    position: absolute;
+    width: 853px;
+    height: 480px;
+    margin: auto;
+    background: url('../img/Hojas-fru-About.png');
+    background-repeat: no-repeat;
+}
+.titulo-ab{
+    color: var(--blanco);
+    font-size:60px;
+    text-align: center;
+    font-family: 'balooregular'!important;
+    /*width: 45px;*/
+    left:0%;
+    position: relative;
+    margin: auto;
+}
+.principal-ab [class*="titulo-ab"]{
+    top:20px; 
+    left:0%;
+    position: relative;
+}
+.principal-ab [id*=logo]{
+    top:30px; 
+    left:0%;
+    position: relative;
+}
+.principal-ab{
+    top:18%; 
+    left:5%;
+    position: relative;
+}
+.parrafo-ab{    
+    color: var(--naranjaParra);
+    font-size: 14px;
+    text-align: center;  
+    font-family: 'glacial_indifferenceregular' !important;  
+    
+}
+
+.footer-ab [class*="btn-shop"]{
+    position: absolute;
+    top:75%;
+    left:48%;
+    
+}
+.btn-shop{
+     color: #fff;
+    font-size: 12.44px;
+    background: var(--naranjaBtn) ;
+    font-family: 'glacial_indifferenceregular' !important;
+    width: 120px; /*ancho*/
+    /*height: 15px 20px 15px 20px;*/
+    padding: 6px;
+    border-radius: 15%;
+    border: none;
+    
+}
+.header-ab [class*="social-icon"]{
+    position: relative;
+    top:55%;
+    left:84%;
+
+}
+.header-ab [class*="icon"]{
+    color: #fff;
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+}
+
+.menu-ab{
+    background-color: seashell;
+    position: absolute;
+    width: 65%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    font-family: 'glacial_indifferenceregular' !important;
+    top:6%;
+    left:18%;
+}
+#menu-ab ul li{
+    display: inline;
+    font-size: 14pt;
+    color: var(--naranjaMenu);
+    text-decoration: none;
+}
+
+#menu-ab ul li a{
+    font-size: 14pt;
+    color: var(--naranjaMenu);
+    padding: 10px;
+    text-decoration: none;
+}
+
+#menu-ab .call-getstared {
+    font-size: 15pt;
+    background: var(--naranjaMenu);
+    border: none;
+   /* padding: 5px 10px 5px 10px;*/
+    border-radius: 10%;
+    color: #fff;
+}
+
+
+ .menu-ab ul li a:hover{
+     background: rgba(255, 166, 0, 0.246);
+ }
+
+
+/*------------------------------------------------------------------*/
+/*-------------------------------SHOP-------------------------------*/
+#container-sh{
+    width: 802px;
+    border: 1px solid;
+    margin: 0 auto;
+    /*background: #FFFFFF;  */
+    position: relative;
+    width: 853px;
+    height: 480px;
+    margin: auto;
+    background: url('../img/fondoshop.png');
+    background-position: center;
+    background-repeat: no-repeat;
+       
+}
+#Div2{
+    width: 678px;
+    margin: 0 auto;
+    position: absolute;
+    width: 678px;
+    height: 340px;
+    margin: auto;
+    align-content: center;    
+}
+
+#Div22{
+    width: 802px;
+    margin: 0 auto;
+    position: absolute;
+    width: 853px;
+    height: 480px;
+    margin: auto;
+    background: url('../img/hoj-ju-shop.png');
+    background-repeat: no-repeat;
+}
+.subtitulo-sh{
+    color: var(--blanco);
+    font-size: 20pt;
+    text-align: justify;
+    font-family: 'glacial_indifferencebold' !important;
+    height: 18px;
+    left:0%;
+    position: relative;
+    margin: auto;
+    
+}
+.titulo-sh{
+    color: var(--blanco);
+    font-size:46pt;
+    text-align: justify;
+    font-family: 'balooregular' !important;
+    /*width: 45px;*/
+    left:0%;
+    position: relative;
+    margin: auto;
+}
+.principal-sh{
+    top:30%; 
+    left:45%;
+    position: relative;
+}
+
+.footer-sh [class*="parrafo-sh"]{
+    position: absolute;
+    top:68%;
+    left:45%;
+    
+}
+.parrafo-sh{    
+    color: #fff;
+    font-size: 14px;
+    text-align: justify;  
+    font-family: 'glacial_indifferenceregular' !important;  
+    
+}
+
+.footer-sh [class*="social-icon"]{
+    position: relative;
+    left:46%;
+
+}
+.footer-sh [class*="icon"]{
+    color: #fff;
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top:390%;
+}
+/*------------------------------------------------------------------*/
+/*-------------------------------CONTACT-------------------------------*/
+#container-co{
+    width: 802px;
+    border: 1px solid;
+    margin: 0 auto;
+    /*background: #FFFFFF;  */
+    position: relative;
+    width: 853px;
+    height: 480px;
+    margin: auto;
+    background: url('../img/back-cont.png');
+    background-position: center;
+    background-repeat: no-repeat;
+       
+}
+#Div3{
+    width: 678px;
+    margin: 0 auto;
+    position: absolute;
+    width: 678px;
+    height: 340px;
+    margin: auto;
+    align-content: center;    
+}
+
+#Div33{
+    width: 802px;
+    margin: 0 auto;
+    position: absolute;
+    width: 853px;
+    height: 480px;
+    margin: auto;
+    background: url('../img/hoj-ju-cont.png');
+    background-repeat: no-repeat;
+}
+.principal-co{
+    top:-6%; 
+    left:5%;
+    position: relative;
+}
+
+.subtitulo-co{
+    color: var(--blanco);
+    font-size: 15pt;
+    text-align: justify;
+    font-family: 'glacial_indifferencebold' !important;
+    height: 20px;
+    left:0%;
+    position: relative;
+    margin: auto;
+    
+}
+.titulo-co{
+    color: var(--blanco);
+    font-size:40pt;
+    text-align: justify;
+    font-family: 'balooregular' !important;  
+    height: 50px;
+    left:0%;
+    position: relative;
+    margin: auto;
+}
+.titulo2-co{
+    color: var(--blanco);
+    font-size:40pt;
+    text-align: justify;
+    font-family: 'balooregular' !important;    
+    left:0%;
+    position: relative;
+    margin: auto;
+}
+.header-co [id*=logo]{
+    position: relative;
+    left:40%;
+    padding: 12px;
+}
+.footer-co [class*="parrafo-co"]{
+    position: absolute;
+    top:71%;
+    left:5%;
+    
+}
+.parrafo-co{    
+    color: #fff;
+    font-size: 14px;
+    text-align: justify;  
+    font-family: 'glacial_indifferenceregular' !important;  
+    
+}
+
+.footer-co [class*="social-icon"]{
+    position: relative;
+    left:8%;
+
+}
+.footer-co [class*="icon"]{
+    color: #fff;
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top:240%;
+}
